@@ -1,0 +1,159 @@
+body{
+    text-align: center;
+}
+.login-page {
+  display: flex;
+  min-height: 100vh;
+  font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* LEFT: Brand Panel */
+.brand-panel {
+  width: 620px;
+  background-color: #4361ee;
+  color: white;
+  padding: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pitch h1 {
+  font-size: 38px;
+  line-height: 1.25;
+  margin-bottom: 16px;
+  max-width: 460px;
+}
+
+.pitch p {
+  font-size: 16px;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 420px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.logo-dot {
+  width: 14px;
+  height: 14px;
+  background: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.pitch h1 {
+  font-size: 38px;
+  line-height: 1.25;
+  margin-bottom: 16px;
+  color:white;
+  text-align: start;
+}
+
+.pitch p {
+  font-size: 16px;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.85);
+  text-align: start;
+}
+
+.stats {
+  display: flex;
+  gap: 40px;
+}
+
+.stats div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stats strong {
+  font-size: 26px;
+}
+
+.stats span {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* RIGHT: Form Panel */
+.form-panel {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+
+.login-form {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-form h2 {
+  font-size: 28px;
+  margin-bottom: 0;
+  color: #0f1222;
+}
+
+.login-form .subtitle {
+  font-size: 15px;
+  color: #6b7280;
+  margin-top: -12px;
+}
+
+.login-form label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #0f1222;
+  margin-bottom: -12px;
+}
+
+.login-form input {
+  height: 46px;
+  padding: 0 16px;
+  border-radius: 10px;
+  border: 1px solid #e3e5e9;
+  background: #f7f8fa;
+  font-size: 14px;
+}
+
+.login-form input:focus {
+  outline: 2px solid #4361ee;
+}
+
+.login-form button {
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  background: #4361ee;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background: #3651d4;
+}
+
+.footer-link {
+  font-size: 14px;
+  color: #6b7280;
+  text-align: center;
+}
+.form-error {
+  background: #fef2f2;
+  color: #b91c1c;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  margin: -8px 0 0 0;
+}
